@@ -1,21 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lmirabile
- * Date: 28/04/2017
- * Time: 10:24
- */
+
 class AdaptateurPDO
-//blackbox reuse, adaptateur de PDO, cet adaptateur est un singleton. Garanti l'unicité de la connexion
 {
     // Instance de la classe PDO
     private $PDOInstance = null;
     //Instance de la classe AdaptateurPDO
     private static $instance = null;
-    const DEFAULT_SQL_DTB  = 'captbfrbphdev';
-    const DEFAULT_SQL_HOST = 'captbfrbphdev.mysql.db';
-    const DEFAULT_SQL_USER = 'captbfrbphdev';
-    const DEFAULT_SQL_PASS = 'KisJH28971th';
+    const DEFAULT_SQL_DTB  = 'dbSchoolMark';
+    const DEFAULT_SQL_HOST = 'localhost';
+    const DEFAULT_SQL_USER = 'root';
+    const DEFAULT_SQL_PASS = 'root';
     private function __construct()
     {
         try {
