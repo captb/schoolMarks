@@ -1,13 +1,53 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <body>
 
+      <div class="container">
+        <div class="row search">
+          <nav class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Schools list</a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Schools list</a></li>
+                      <li><a href="#">Students list</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Add note</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
 
+          <div class="col-sm-4">
+            <input class="form-control" id="inputEmail" placeholder="Search" type="text">
+          </div>
+        </div>
+        <div class="row list">
+          <!-- Liste des classes -->
+          <article class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <!-- <h1>Nom de la classe</h1> -->
+            <!-- <ul><li>Nom de la ville</li><li>Directeur</li></ul> -->
+          </article>
+        </div>
 
+      </div>
+      
     </body>
+
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js'></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/cerulean/variables.less">
+    <link rel="stylesheet" href="https://bootswatch.com/cerulean/bootswatch.less">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="css/style.css">
 </html>
